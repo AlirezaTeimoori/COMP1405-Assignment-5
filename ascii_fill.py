@@ -36,7 +36,7 @@ def getUserAction(height:int, width:int):
 
 def fill(gameBoard:list, toReplace:str, symbol:str, row:int, column:int):
     
-    
+    if toReplace == symbol: return
     
     return
     
